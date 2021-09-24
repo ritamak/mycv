@@ -28,7 +28,7 @@ export default function IronhackProjects() {
           moving ball increases with each level. When the user looses the
           game, a score board appears in the screen with the time of the
           game, the number of clicks inside of the white ball, and. if the
-          uses plays more than once, there's also the previous game
+          user plays more than once, there's also the previous game
           scores.`}
                 projectTime={"2021-06-18"}
                 link1={"https://ritamak.github.io/stress-ball/"}
@@ -41,8 +41,8 @@ export default function IronhackProjects() {
             <Grid container xs={12} sm={6} md={4} lg={3} className="cardItem">
               <Cards
                 projectTitle={"FUNNYFY"}
-                projectDescription={`Funnyfy iss a project developed by me and my colleague
-          (Enrique), using back-end skills. Were used
+                projectDescription={`Funnyfy is a project developed by me and my colleague
+          (Enrique), using back-end skills. We used
           Node.Js, Express.Js, MongoDB and JavaScript. Funnyfy is a
           website where you can create your account, and using an external
           API of jokes, we provide the user a collection of jokes
@@ -61,9 +61,9 @@ export default function IronhackProjects() {
             <Grid container xs={12} sm={6} md={4} lg={3} className="cardItem">
               <Cards
                 projectTitle={"HR TIMES"}
-                projectDescription={`RH TIMES is a project developed by me and my colleague
+                projectDescription={`HR TIMES is a project developed by me and my colleague
           (Halil), using our full-stack skills. To develop the website, we used React,
-          Node.Js, Express.Js and MongoDB. RH TIMES is a website
+          Node.Js, Express.Js and MongoDB. HR TIMES is a website
           where the user can create an account and based on the user's
           interests, we provide a curated selection of news and articles
           from the New York Times API. The user can add new articles to

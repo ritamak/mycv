@@ -20,7 +20,7 @@ export default function Personal() {
               <PhotoRita />
               <div className="boxBubble">
                 <Bubble
-                  text={`I have a passion for nature, I'm animal lover and cooking enthusiast. In my free time I like to
+                  text={`I have a passion for nature, I am an animal lover and a cooking enthusiast. In my free time I like to
         spend time with the people I love and enjoy concerts and all type of cultural events. I spend my time between Lisbon and Manchester.`}
                 />
                 <Bubble
