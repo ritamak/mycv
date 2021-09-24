@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import { ThemeContext } from "../ThemeContext";
 import Timer from "../components/Timer";
 import Button from "@material-ui/core/Button";
-import { Link } from "react-router-dom";
 
 import "./Cards.css";
 

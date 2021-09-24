@@ -39,7 +39,6 @@ const Footer = () => {
                   PT
                   <PhoneIcon />
                 </a>
-
                 <a href="tel:004407907009418">
                   EN
                   <PhoneIcon />

@@ -1,4 +1,4 @@
-// Bubble for the texts with links
+// Bubble for the "texts messages" with links
 
 import React from "react";
 import Grid from "@material-ui/core/Grid";

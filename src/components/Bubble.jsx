@@ -1,4 +1,4 @@
-// Bubble for the texts
+// Bubble component for the "texts messages"
 
 import React from "react";
 import Grid from "@material-ui/core/Grid";

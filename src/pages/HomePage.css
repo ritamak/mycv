@@ -10,7 +10,7 @@
 }
 
 .homepageBubbles {
-  margin-bottom: 300px;
+  margin-bottom: 120px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -18,9 +18,97 @@
   align-items: center;
 }
 
+@media (min-width: 375px) {
+  .homepageBubbles {
+    margin-bottom: 140px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media (min-width: 600px) {
   .homepageBubbles {
     margin-bottom: 230px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .homepageBubbles {
+    margin-bottom: 850px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .homepageBubbles {
+    margin-bottom: 220px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .homepageBubbles {
+    margin-bottom: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .homepageBubbles {
+    margin-bottom: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .homepageBubbles {
+    margin-bottom: 830px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .homepageBubbles {
+    margin-bottom: 520px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .homepageBubbles {
+    margin-bottom: 220px;
     width: 70%;
     display: flex;
     flex-direction: column;

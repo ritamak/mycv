@@ -38,7 +38,11 @@ export default function Header() {
           <>
             <Navbar collapseOnSelect expand="lg" style={themeStyles}>
               <Container>
-                <Navbar.Brand href="./" style={themeStyles}>
+                <Navbar.Brand
+                  href="./"
+                  style={themeStyles}
+                  className="nameHeader"
+                >
                   Rita Mak
                 </Navbar.Brand>
                 <Navbar.Toggle
@@ -69,7 +73,7 @@ export default function Header() {
                       Projects
                     </Nav.Link>
                   </Nav>
-                  <Nav>
+                  <Nav className="headerIcon">
                     {theme === "dark" ? (
                       <StyledSun
                         size={32}
