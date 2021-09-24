@@ -1,0 +1,14 @@
+.card {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center !important;
+  border-radius: 25px !important;
+}
+
+.cardItemWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}

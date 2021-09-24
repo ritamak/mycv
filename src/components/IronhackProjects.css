@@ -1,0 +1,20 @@
+.cardItem {
+  width: 275px;
+  height: 600px;
+  margin: 15px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 10px #241919 !important;
+  border-radius: 25px !important;
+}
+.cardItem:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

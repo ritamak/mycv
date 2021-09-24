@@ -1,0 +1,21 @@
+.footer {
+  background-color: #082938;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+.footerLinks {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.randomDiv {
+  margin-top: 20px;
+}

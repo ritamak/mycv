@@ -1,0 +1,19 @@
+.aboutWrapperOne {
+  display: flex;
+  flex-direction: column;
+  max-width: 70em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.cardsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:60px;
+  margin-top:50px
+}

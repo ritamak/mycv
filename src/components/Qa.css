@@ -1,0 +1,41 @@
+.accordionWrapper {
+  max-width: 30em !important;
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 32px;
+}
+
+@media (min-width: 600px) {
+  .accordionWrapper {
+    max-width: 60em !important;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+}
+
+.accordionDetail {
+  border-radius: 25px !important;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.headings {
+  font-family: "Open Sans", sans-serif;
+}
+
+.secundaries {
+  font-family: "Open Sans", sans-serif;
+}
