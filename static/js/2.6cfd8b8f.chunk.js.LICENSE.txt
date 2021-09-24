@@ -11,12 +11,6 @@ object-assign
 */
 
 /**
- * @license countdown.js v2.6.0 http://countdownjs.org
- * Copyright (c)2006-2014 Stephen M. McKamey.
- * Licensed under The MIT License.
- */
-
-/**
  * A better abstraction over CSS.
  *
  * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
@@ -68,3 +62,5 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+//! moment.js
