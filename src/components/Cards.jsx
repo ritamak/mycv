@@ -4,6 +4,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
 import { ThemeContext } from "../ThemeContext";
+import Timer from "../components/Timer";
 import "./Cards.css";
 
 export default function Cards(props) {
@@ -32,8 +33,8 @@ export default function Cards(props) {
             <Card style={themeStyles2}>
               <Card.Body>
                 <Card.Title>{projectTitle}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  {projectTime}
+                <Card.Subtitle>
+                  <Timer date={projectTime} />
                 </Card.Subtitle>
                 <Card.Text>{projectDescription}</Card.Text>
                 <Card.Link href={link1}>{link1title}</Card.Link>

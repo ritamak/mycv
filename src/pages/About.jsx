@@ -20,8 +20,8 @@ export default function About() {
             <ContentContainer style={themeStyles}>
               <div className="aboutWrapperOne">
                 <Qa />
-      <div className="cardsWrapper">
-                <IronhackProjects />
+                <div className="cardsWrapper">
+                  <IronhackProjects />
                 </div>
               </div>
             </ContentContainer>

@@ -30,7 +30,7 @@ export default function IronhackProjects() {
           game, the number of clicks inside of the white ball, and if the
           uses plays more than once, there's also the previous game
           scores.`}
-                projectTime={"first project"}
+                projectTime={"2021-06-18"}
                 link1={"https://ritamak.github.io/stress-ball/"}
                 link1title={"website"}
                 link2={"https://github.com/ritamak/stress-ball"}
@@ -50,7 +50,7 @@ export default function IronhackProjects() {
           database, share the jokes in other social media platforms like
           Facebook, get random jokes everyday and add jokes to their
           favourites to never miss a good laugh!`}
-                projectTime={"second project"}
+                projectTime={"2021-07-09"}
                 link1={"https://funnyfy.herokuapp.com/"}
                 link1title={"website"}
                 link2={"https://github.com/ritamak/funnyfy"}
@@ -69,7 +69,7 @@ export default function IronhackProjects() {
           from the New York Times API. The user can add new articles to
           our database, see articles created by other users, follow other
           users and review and like their articles.`}
-                projectTime={"third project"}
+                projectTime={"2021-07-30"}
                 link1={"https://hrtimes.herokuapp.com/"}
                 link1title={"website"}
                 link2={"https://github.com/ritamak/hrtimes-client"}
