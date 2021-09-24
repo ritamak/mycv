@@ -20,7 +20,7 @@ function HomePage() {
               <PhotoRita />
               <div className="homepageBubbles">
                 <Bubble
-                  text={`My name is Rita Mak and I'm a portuguese Font-end Web Develper.`}
+                  text={`My name is Rita Mak and I'm a portuguese Full-Stack Web Develper.`}
                   id="bubbleOne"
                 />
                 <BubbleLink text={"Want to know more?"} link={"./personal"} />

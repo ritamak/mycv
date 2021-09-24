@@ -10,7 +10,7 @@
 .cardItemWrapper {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
 }
 
@@ -18,8 +18,10 @@
   text-decoration: none !important;
   width: 70px;
   height: 40px;
+  margin: 10px;
   filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1)) !important;
   font-family: sans-serif !important;
+  font-size: 0.6em !important;
 }
 
 .cardButton:hover {
@@ -30,13 +32,22 @@
 .cardButonWrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .cardTitle {
+  margin-bottom: 20px !important;
+  font-weight: bold !important;
+  font-size: 2em !important;
 }
 
 .cardSubtitle {
+  margin-bottom: 20px !important;
+  font-weight: bold !important;
 }
 
 .cardText {
+  text-align: justify;
+  font-size: 1em;
 }

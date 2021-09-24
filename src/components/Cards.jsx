@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import { ThemeContext } from "../ThemeContext";
 import Timer from "../components/Timer";
 import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 import "./Cards.css";
 
@@ -38,28 +39,42 @@ export default function Cards(props) {
           <Grid className="cardItemWrapper">
             <Card style={themeStyles2}>
               <Card.Body>
-                <Card.Title className="cardTitle">{projectTitle}</Card.Title>
-                <Card.Subtitle className="cardSubtitle">
-                  <Timer date={projectTime} />
-                </Card.Subtitle>
+                <div className="projectHeader">
+                  <Card.Title className="cardTitle">{projectTitle}</Card.Title>
+                  <Card.Subtitle className="cardSubtitle">
+                    <Timer date={projectTime} />
+                  </Card.Subtitle>
+                </div>
                 <Card.Text className="cardText">{projectDescription}</Card.Text>
                 <div className="cardButonWrapper">
-                  <Card.Link href={link1}>
-                    <Button className="cardButton" style={themeStyles1}>
+                  <Button
+                    variant="contained"
+                    style={themeStyles1}
+                    className="cardButton"
+                  >
+                    <Link href={link1} className="buttonLandingLink">
                       {link1title}
-                    </Button>
-                  </Card.Link>
-                  <Card.Link href={link2}>
-                    <Button className="cardButton" style={themeStyles1}>
+                    </Link>
+                  </Button>
+                  <Button
+                    variant="contained"
+                    style={themeStyles1}
+                    className="cardButton"
+                  >
+                    <Link href={link2} className="buttonLandingLink">
                       {link2title}
-                    </Button>
-                  </Card.Link>
+                    </Link>
+                  </Button>
                   {link3 && (
-                    <Card.Link href={link3}>
-                      <Button className="cardButton" style={themeStyles1}>
+                    <Button
+                      variant="contained"
+                      style={themeStyles1}
+                      className="cardButton"
+                    >
+                      <Link href={link3} className="buttonLandingLink">
                         {link3title}
-                      </Button>
-                    </Card.Link>
+                      </Link>
+                    </Button>
                   )}
                 </div>
               </Card.Body>
