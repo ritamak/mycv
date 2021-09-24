@@ -44,7 +44,7 @@ export default function IronhackProjects() {
                 projectDescription={`Funnyfy is a project developed by me and my colleague
           (Enrique), using back-end skills. We used
           Node.Js, Express.Js, MongoDB and JavaScript. Funnyfy is a
-          website where you can create your account, and using an external
+          website where the user can create your account, and using an external
           API of jokes, we provide the user a collection of jokes
           separated by categories. The user can add more jokes to our
           database, share the jokes in other social media platforms like
