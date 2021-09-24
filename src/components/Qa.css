@@ -1,7 +1,7 @@
 .accordionWrapper {
   max-width: 30em !important;
   color: white !important;
-  display: flex;
+  display: flex I !important;
   flex-direction: column;
   justify-content: center !important;
   align-items: center !important;
@@ -34,6 +34,9 @@ h2 {
 
 .headings {
   font-family: sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .secundaries {
