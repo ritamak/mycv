@@ -42,7 +42,7 @@ export default function Personal() {
                 />
                 <BubbleLink
                   text={"Let me show you some of my projects"}
-                  link={"./cv/projects"}
+                  link={"./projects"}
                 />
               </div>
               <div className="randomDiv"></div>

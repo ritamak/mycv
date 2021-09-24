@@ -10,7 +10,7 @@ import Grid from "@material-ui/core/Grid";
 export default function About() {
   return (
     <ThemeContext.Consumer>
-      {({ theme, toggleTheme }) => {
+      {({ theme }) => {
         const themeStyles = {
           backgroundColor: theme === "light" ? "#082938" : "#20B3B4",
           color: theme === "light" ? "#082938" : "#082938",

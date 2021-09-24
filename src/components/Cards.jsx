@@ -5,6 +5,8 @@ import { Card } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
 import { ThemeContext } from "../ThemeContext";
 import Timer from "../components/Timer";
+import Button from "@material-ui/core/Button";
+
 import "./Cards.css";
 
 export default function Cards(props) {
@@ -28,6 +30,10 @@ export default function Cards(props) {
           color: theme === "light" ? "black" : "black",
         };
 
+        const themeStyles1 = {
+          backgroundColor: theme === "light" ? "rgb(32, 179, 180)" : "#428EB6",
+        };
+
         return (
           <Grid className="cardItemWrapper">
             <Card style={themeStyles2}>
@@ -37,9 +43,25 @@ export default function Cards(props) {
                   <Timer date={projectTime} />
                 </Card.Subtitle>
                 <Card.Text>{projectDescription}</Card.Text>
-                <Card.Link href={link1}>{link1title}</Card.Link>
-                <Card.Link href={link2}>{link2title}</Card.Link>
-                <Card.Link href={link3}>{link3title}</Card.Link>
+                <div className="cardButonWrapper">
+                  <Card.Link href={link1}>
+                    <Button className="cardButton" style={themeStyles1}>
+                      {link1title}
+                    </Button>
+                  </Card.Link>
+                  <Card.Link href={link2}>
+                    <Button className="cardButton" style={themeStyles1}>
+                      {link2title}
+                    </Button>
+                  </Card.Link>
+                  {link3 && (
+                    <Card.Link href={link3}>
+                      <Button className="cardButton" style={themeStyles1}>
+                        {link3title}
+                      </Button>
+                    </Card.Link>
+                  )}
+                </div>
               </Card.Body>
             </Card>
           </Grid>

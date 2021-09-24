@@ -12,3 +12,20 @@
   justify-content: center;
   height: 100%;
 }
+
+.cardButton {
+  text-decoration: none !important;
+  width: 70px;
+  height: 40px;
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1)) !important;
+}
+
+.cardButton:hover {
+  text-decoration: none !important;
+  transform: scale(1.5);
+}
+
+.cardButonWrapper {
+  display: flex;
+  flex-direction: row;
+}

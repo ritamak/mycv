@@ -8,12 +8,11 @@
   margin-top: 30px;
 }
 
-
 .cardsWrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom:60px;
-  margin-top:50px
+  margin-bottom: 60px;
+  margin-top: 10px;
 }
