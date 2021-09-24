@@ -3,9 +3,7 @@ import IronhackProjects from "../components/IronhackProjects";
 import Qa from "../components/Qa";
 import ContentContainer from "../components/ContentContainer";
 import { ThemeContext } from "../ThemeContext";
-import Timer from "../components/Timer";
 import "./About.css";
-import Grid from "@material-ui/core/Grid";
 
 export default function About() {
   return (
