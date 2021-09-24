@@ -26,7 +26,7 @@ export default function Personal() {
                 <Bubble
                   text={`I have a background in Event Production.
         I used to be an event producer until the covid-19 appeared, and suddenly
-        I found myself at home, with no job and no clue of what to do next. Do nothing was not an option for me!`}
+        I found myself at home, with no job and no clue of what to do next. Do nothing is never an option for me!`}
                 />
                 <Bubble
                   text={`That was when I discovered the wonderful world of web development! I started learning
