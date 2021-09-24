@@ -5,6 +5,7 @@
   transition: all 0.2s ease-in-out;
   box-shadow: 0 0 10px #241919 !important;
   border-radius: 25px !important;
+  font-family: sans-serif !important;
 }
 .cardItem:hover {
   transform: scale(1.1);

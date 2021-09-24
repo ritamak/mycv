@@ -38,11 +38,11 @@ export default function Cards(props) {
           <Grid className="cardItemWrapper">
             <Card style={themeStyles2}>
               <Card.Body>
-                <Card.Title>{projectTitle}</Card.Title>
-                <Card.Subtitle>
+                <Card.Title className="cardTitle">{projectTitle}</Card.Title>
+                <Card.Subtitle className="cardSubtitle">
                   <Timer date={projectTime} />
                 </Card.Subtitle>
-                <Card.Text>{projectDescription}</Card.Text>
+                <Card.Text className="cardText">{projectDescription}</Card.Text>
                 <div className="cardButonWrapper">
                   <Card.Link href={link1}>
                     <Button className="cardButton" style={themeStyles1}>

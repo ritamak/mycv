@@ -25,16 +25,17 @@
 
 .accordionDetail {
   border-radius: 25px !important;
+  font-family: sans-serif !important;
 }
 
 h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 .headings {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 .secundaries {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }

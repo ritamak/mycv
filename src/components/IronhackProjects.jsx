@@ -19,7 +19,7 @@ export default function IronhackProjects() {
           <>
             <Grid container xs={12} sm={6} md={4} lg={3} className="cardItem">
               <Cards
-                projectTitle={"stress|ball"}
+                projectTitle={"STRESS|BALL"}
                 projectDescription={`stress|ball was a game created using HTML Canvas, CSS and
           JavaScript. In stress|ball, a white ball appears in the
           screen and moves to random places and the user has to click
@@ -40,7 +40,7 @@ export default function IronhackProjects() {
             </Grid>
             <Grid container xs={12} sm={6} md={4} lg={3} className="cardItem">
               <Cards
-                projectTitle={"funnyfy"}
+                projectTitle={"FUNNYFY"}
                 projectDescription={`Funnyfy was a project developed by me and my colleague
           (Enrique Donaire), developed used back-end skills. We used
           Node.Js, Express.Js, MongoDB and JavaScript. Funnyfy is a

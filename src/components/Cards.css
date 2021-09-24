@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center !important;
   border-radius: 25px !important;
+  font-family: sans-serif !important;
 }
 
 .cardItemWrapper {
@@ -18,6 +19,7 @@
   width: 70px;
   height: 40px;
   filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1)) !important;
+  font-family: sans-serif !important;
 }
 
 .cardButton:hover {
@@ -28,4 +30,13 @@
 .cardButonWrapper {
   display: flex;
   flex-direction: row;
+}
+
+.cardTitle {
+}
+
+.cardSubtitle {
+}
+
+.cardText {
 }
