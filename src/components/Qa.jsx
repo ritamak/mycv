@@ -65,7 +65,7 @@ export default function Qa() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography className="secundaries">
-                    Good ethnics, sense of community, teamwork, flexibility,
+                    Good ethics, sense of community, teamwork, flexibility,
                     creative environment
                   </Typography>
                 </AccordionDetails>
@@ -82,9 +82,7 @@ export default function Qa() {
                   className="accordionDetail"
                   style={themeStyles2}
                 >
-                  <Typography className="headings">
-                    Superpowers and why?
-                  </Typography>
+                  <Typography className="headings">Superpowers?</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography className="secundaries">

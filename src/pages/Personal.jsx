@@ -30,7 +30,7 @@ export default function Personal() {
                 />
                 <Bubble
                   text={`That was when I discovered the wonderful world of web development! I started learning
-        JavaScript by myself and throught that I found a passion I
+        JavaScript by myself and through that I found a passion I
         didn't know I had! Later, I applied, enroled and completed ironhack's Web Development
         bootcamp in a total of 9 intense, hard but extremely happy weeks.`}
                 />

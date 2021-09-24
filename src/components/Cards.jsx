@@ -52,18 +52,18 @@ export default function Cards(props) {
                     style={themeStyles1}
                     className="cardButton"
                   >
-                    <Link href={link1} className="buttonLandingLink">
+                    <a href={link1} className="buttonLandingLink">
                       {link1title}
-                    </Link>
+                    </a>
                   </Button>
                   <Button
                     variant="contained"
                     style={themeStyles1}
                     className="cardButton"
                   >
-                    <Link href={link2} className="buttonLandingLink">
+                    <a href={link2} className="buttonLandingLink">
                       {link2title}
-                    </Link>
+                    </a>
                   </Button>
                   {link3 && (
                     <Button
@@ -71,9 +71,9 @@ export default function Cards(props) {
                       style={themeStyles1}
                       className="cardButton"
                     >
-                      <Link href={link3} className="buttonLandingLink">
+                      <a href={link3} className="buttonLandingLink">
                         {link3title}
-                      </Link>
+                      </a>
                     </Button>
                   )}
                 </div>
