@@ -18,11 +18,13 @@ function HomePage() {
           <>
             <ContentContainer style={themeStyles}>
               <PhotoRita />
-              <Bubble
-                text={`My name is Rita Mak and I'm a portuguese Font-end Web Develper.`}
-                id="bubbleOne"
-              />
-              <BubbleLink text={"Want to know more?"} link={"./personal"} />
+              <div className="homepageBubbles">
+                <Bubble
+                  text={`My name is Rita Mak and I'm a portuguese Font-end Web Develper.`}
+                  id="bubbleOne"
+                />
+                <BubbleLink text={"Want to know more?"} link={"./personal"} />
+              </div>
             </ContentContainer>
           </>
         );

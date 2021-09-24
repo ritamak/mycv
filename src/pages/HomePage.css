@@ -8,3 +8,23 @@
   align-items: center !important;
   justify-content: center;
 }
+
+.homepageBubbles {
+  margin-bottom: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .homepageBubbles {
+    margin-bottom: 230px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

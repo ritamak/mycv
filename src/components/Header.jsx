@@ -4,6 +4,8 @@ import { ThemeContext } from "../ThemeContext";
 import styled, { css } from "styled-components";
 import { Sun, Moon } from "styled-icons/feather";
 import { Menu } from "@styled-icons/boxicons-regular/Menu";
+import Button from "@material-ui/core/Button";
+
 import "./Header.css";
 
 export default function Header() {
@@ -43,7 +45,9 @@ export default function Header() {
                   aria-controls="responsive-navbar-nav"
                   style={themeStyles2}
                 >
-                  <Menu style={themeStyles2} />
+                  <Button className="navbarButton" size="small">
+                    <Menu />
+                  </Button>
                 </Navbar.Toggle>
                 <Navbar.Collapse
                   id="responsive-navbar-nav"
@@ -55,14 +59,14 @@ export default function Header() {
                       style={themeStyles2}
                       className="links"
                     >
-                      About Me
+                      About
                     </Nav.Link>
                     <Nav.Link
                       href="./projects"
                       style={themeStyles2}
                       className="links"
                     >
-                      My Projects
+                      Projects
                     </Nav.Link>
                   </Nav>
                   <Nav>

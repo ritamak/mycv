@@ -11,3 +11,9 @@
 .navbar {
   width: 100%;
 }
+
+.navbarButton {
+  color: white !important;
+  height: 1px !important;
+  width: 2px !important;
+}
