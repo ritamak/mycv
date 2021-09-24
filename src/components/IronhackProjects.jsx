@@ -27,7 +27,7 @@ export default function IronhackProjects() {
           three levels (easy, medium and hard) and the velocity of the
           moving ball increases with each level. When the user looses the
           game, a score board appears in the screen with the time of the
-          game, the number of clicks inside of the white ball, and. if the
+          game, the number of clicks inside of the white ball, and, if the
           user plays more than once, there's also the previous game
           scores.`}
                 projectTime={"2021-06-18"}
