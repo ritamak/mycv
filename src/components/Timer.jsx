@@ -33,25 +33,3 @@ const Timer = (props) => {
   );
 };
 export default Timer;
-
-/*
-import React from "react";
-import "./Timer.css";
-import countdown from "countdown";
-
-const Timer = () => {
-  let time = countdown(new Date(2021, 7, 30)).toString();
-  const tick = () => {
-    setTimeout(time, 1000);
-  };
-  console.log(tick());
-  return (
-    <div className="timmerWrapper">
-      <p>it has passed {time} from the project's presentation date</p>
-    </div>
-  );
-};
-
-export default Timer;
-
-*/
