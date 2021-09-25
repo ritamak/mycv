@@ -36,7 +36,7 @@ export default function Personal() {
                 />
                 <Bubble
                   text={`And now what? I can't wait to embrace new coding adventures and challenges,
-        meeting new people and improve myself as a proud Full-End Web
+        meeting new people and improve myself as a proud Full-Stack Web
         Developer!
         `}
                 />
